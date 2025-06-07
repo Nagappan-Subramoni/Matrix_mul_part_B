@@ -1,0 +1,6 @@
+
+pymp-pypi
+pymp
+numpy
+psutil
+mpi4py
