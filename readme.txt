@@ -1,3 +1,4 @@
+Git repository: https://github.com/Nagappan-Subramoni/Matrix_mul_part_B/edit/main/readme.txt
 Short Description: The code is written with 4 steps with 2 solutions one using pymp and second using Open MP .
 1. Sequential computation
 2. Parallel execution , parallize each element in parallel
