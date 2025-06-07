@@ -1,3 +1,126 @@
+PS C:\Users\nagappans\ai_ml\ai_ml\NNProjects> python .\catsvsdogs2.py --device cpu
+Forced CPU usage
+Using device: CPU
+Loading datasets...
+Found 2000 files belonging to 2 classes.
+2025-06-07 17:27:27.255182: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Found 1000 files belonging to 2 classes.
+Found 2000 files belonging to 2 classes.
+Creating base model...
+
+==================================================
+Training Base Model
+==================================================
+Epoch 1/10
+63/63 [==============================] - 24s 360ms/step - loss: 0.7669 - accuracy: 0.5115 - val_loss: 0.6905 - val_accuracy: 0.5090
+Epoch 2/10
+63/63 [==============================] - 24s 380ms/step - loss: 0.7480 - accuracy: 0.5515 - val_loss: 0.6774 - val_accuracy: 0.5480
+Epoch 3/10
+63/63 [==============================] - 25s 391ms/step - loss: 0.6784 - accuracy: 0.5950 - val_loss: 0.6625 - val_accuracy: 0.5960
+Epoch 4/10
+63/63 [==============================] - 25s 389ms/step - loss: 0.6500 - accuracy: 0.6250 - val_loss: 0.6613 - val_accuracy: 0.6360
+Epoch 5/10
+63/63 [==============================] - 26s 411ms/step - loss: 0.6262 - accuracy: 0.6745 - val_loss: 0.5995 - val_accuracy: 0.6580
+Epoch 6/10
+63/63 [==============================] - 26s 406ms/step - loss: 0.5645 - accuracy: 0.7220 - val_loss: 0.6127 - val_accuracy: 0.6740
+Epoch 7/10
+63/63 [==============================] - 31s 487ms/step - loss: 0.5188 - accuracy: 0.7420 - val_loss: 0.6776 - val_accuracy: 0.6840
+Epoch 8/10
+63/63 [==============================] - 31s 492ms/step - loss: 0.4881 - accuracy: 0.7670 - val_loss: 0.5752 - val_accuracy: 0.7200
+Epoch 9/10
+63/63 [==============================] - 39s 620ms/step - loss: 0.4429 - accuracy: 0.7955 - val_loss: 0.6302 - val_accuracy: 0.7060
+Epoch 10/10
+63/63 [==============================] - 35s 554ms/step - loss: 0.3934 - accuracy: 0.8195 - val_loss: 0.5537 - val_accuracy: 0.7290
+Training time: 283.79 seconds
+63/63 [==============================] - 6s 87ms/step - loss: 0.5637 - accuracy: 0.7295
+Test accuracy: 0.729
+
+Creating augmented model with dropout...
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+
+==================================================
+Training Augmented Model
+==================================================
+Epoch 1/10
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting RngReadAndSkip cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting Bitcast cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting StatelessRandomUniformV2 cause there is no registered converter for this op.
+WARNING:tensorflow:Using a while_loop for converting ImageProjectiveTransformV3 cause there is no registered converter for this op.
+63/63 [==============================] - 39s 577ms/step - loss: 0.7391 - accuracy: 0.5120 - val_loss: 1.1819 - val_accuracy: 0.5000
+Epoch 2/10
+63/63 [==============================] - 31s 491ms/step - loss: 0.7007 - accuracy: 0.5265 - val_loss: 0.6894 - val_accuracy: 0.5030
+Epoch 3/10
+63/63 [==============================] - 42s 667ms/step - loss: 0.7146 - accuracy: 0.5715 - val_loss: 0.6357 - val_accuracy: 0.6300
+Epoch 4/10
+63/63 [==============================] - 44s 692ms/step - loss: 0.6589 - accuracy: 0.6140 - val_loss: 0.6329 - val_accuracy: 0.6200
+Epoch 5/10
+63/63 [==============================] - 42s 670ms/step - loss: 0.6428 - accuracy: 0.6420 - val_loss: 0.5982 - val_accuracy: 0.6830
+Epoch 6/10
+63/63 [==============================] - 44s 697ms/step - loss: 0.6196 - accuracy: 0.6590 - val_loss: 0.6818 - val_accuracy: 0.5880
+Epoch 7/10
+63/63 [==============================] - 47s 743ms/step - loss: 0.6145 - accuracy: 0.6710 - val_loss: 0.6372 - val_accuracy: 0.6040
+Epoch 8/10
+63/63 [==============================] - 42s 673ms/step - loss: 0.5989 - accuracy: 0.6870 - val_loss: 0.6171 - val_accuracy: 0.6580
+Epoch 9/10
+63/63 [==============================] - 44s 697ms/step - loss: 0.5820 - accuracy: 0.7035 - val_loss: 0.5784 - val_accuracy: 0.6960
+Epoch 10/10
+63/63 [==============================] - 41s 649ms/step - loss: 0.5751 - accuracy: 0.7110 - val_loss: 0.5442 - val_accuracy: 0.7120
+Training time: 415.92 seconds
+63/63 [==============================] - 8s 120ms/step - loss: 0.5705 - accuracy: 0.7065
+Test accuracy: 0.706
+
+============================================================
+TRAINING SUMMARY
+============================================================
+Device used: CPU
+Epochs: 10
+
+Base Model:
+  Training time: 283.79 seconds
+  Test accuracy: 0.729
+
+Augmented Model:
+  Training time: 415.92 seconds
+  Test accuracy: 0.706
+
+Improvement: -0.023
+PS C:\Users\nagappans\ai_ml\ai_ml\NNProjects> python .\catsvsdogs2.py --device gpu
 GPU available: 1 GPU(s) found
 GPU names: ['/physical_device:GPU:0']
 Using device: GPU
@@ -124,3 +247,34 @@ Augmented Model:
 
 Improvement: 0.006
 PS C:\Users\nagappans\ai_ml\ai_ml\NNProjects> 
+
+Conclusion: 
+For CPU this is the timings:
+============================================================
+TRAINING SUMMARY
+============================================================
+Device used: CPU
+Epochs: 10
+
+Base Model:
+  Training time: 283.79 seconds
+  Test accuracy: 0.729
+
+Augmented Model:
+  Training time: 415.92 seconds
+  Test accuracy: 0.706
+
+for GPU this is the timings:
+============================================================
+TRAINING SUMMARY
+============================================================
+Device used: GPU
+Epochs: 10
+
+Base Model:
+  Training time: 35.71 seconds
+  Test accuracy: 0.708
+
+Augmented Model:
+  Training time: 118.70 seconds
+  Test accuracy: 0.714
